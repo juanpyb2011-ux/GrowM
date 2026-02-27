@@ -3,135 +3,180 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GrowMountain | Páginas Web para Negocios Locales</title>
+<title>GrowMountain | Desarrollo Web Estratégico</title>
 
 <style>
-body{
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
     font-family: Arial, sans-serif;
-    background:#0f0f0f;
+}
+
+body{
+    background:#0a0a0a;
     color:white;
+    scroll-behavior:smooth;
 }
 
 header{
-    padding:80px 20px;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    background:linear-gradient(135deg,#0f0f0f,#1c1c1c);
+    padding:20px;
+    background:linear-gradient(135deg,#0a0a0a,#121212);
 }
 
 header h1{
-    font-size:3rem;
-    margin:0;
+    font-size:3.5rem;
+    background:linear-gradient(90deg,#00ff88,#00c853);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
 header p{
+    margin:20px 0;
     font-size:1.2rem;
-    margin:15px 0;
     color:#ccc;
+    max-width:600px;
 }
 
 .btn{
     background:#00c853;
     color:white;
-    padding:15px 25px;
+    padding:15px 30px;
+    border-radius:30px;
     text-decoration:none;
-    border-radius:8px;
     font-weight:bold;
+    transition:0.3s;
 }
 
-.section{
-    padding:60px 20px;
+.btn:hover{
+    background:#00ff88;
+    transform:scale(1.05);
+}
+
+section{
+    padding:80px 20px;
     text-align:center;
 }
 
-.examples{
+h2{
+    font-size:2.2rem;
+    margin-bottom:20px;
+}
+
+.services, .process{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:25px;
+    gap:30px;
     margin-top:40px;
 }
 
 .card{
-    background:#1e1e1e;
-    padding:25px;
+    background:#151515;
+    padding:30px;
+    border-radius:15px;
     width:280px;
-    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    background:#1f1f1f;
 }
 
 .card h3{
-    margin-top:0;
-}
-
-.card p{
-    color:#aaa;
+    margin-bottom:10px;
+    color:#00ff88;
 }
 
 footer{
     background:#000;
-    padding:30px;
+    padding:40px 20px;
     text-align:center;
     color:#777;
 }
-</style>
 
+/* Botón flotante */
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#00c853;
+    padding:15px 18px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+}
+</style>
 </head>
 
 <body>
 
 <header>
     <h1>GrowMountain</h1>
-    <p>Creamos páginas web que ayudan a negocios locales a conseguir más clientes.</p>
+    <p>Desarrollamos páginas web estratégicas para negocios locales que quieren más clientes y más ventas.</p>
     <a class="btn" href="https://wa.me/5212220000000" target="_blank">
         Solicitar Información
     </a>
 </header>
 
-<section class="section">
-    <h2>¿Qué hacemos?</h2>
-    <p>Diseñamos páginas web profesionales optimizadas para Google, con integración directa a WhatsApp y enfoque en generar más ventas y citas.</p>
-</section>
-
-<section class="section">
-    <h2>Ejemplos de Conceptos Web</h2>
-    <p>Estos son ejemplos de páginas diseñadas como referencia para negocios locales.</p>
-
-    <div class="examples">
-
+<section>
+    <h2>Servicios</h2>
+    <div class="services">
         <div class="card">
-            <h3>🍔 Restaurante</h3>
-            <p>Página con menú digital, galería y botón de pedidos por WhatsApp.</p>
+            <h3>🌐 Desarrollo Web</h3>
+            <p>Páginas profesionales optimizadas para Google y enfocadas en conversión.</p>
         </div>
-
         <div class="card">
-            <h3>✂️ Barbería</h3>
-            <p>Galería de trabajos, servicios destacados y reserva de citas.</p>
+            <h3>📈 Optimización Local</h3>
+            <p>Estrategia para que aparezcas cuando te busquen en tu ciudad.</p>
         </div>
-
         <div class="card">
-            <h3>💆‍♀️ Estética</h3>
-            <p>Catálogo de servicios, promociones y contacto directo.</p>
+            <h3>📲 Integración WhatsApp</h3>
+            <p>Botones directos para convertir visitas en clientes reales.</p>
         </div>
-
     </div>
 </section>
 
-<section class="section">
-    <h2>¿Por qué una página web?</h2>
-    <p>La mayoría de los clientes buscan negocios en Google antes de tomar una decisión. Tener una página profesional aumenta la confianza y mejora las ventas.</p>
+<section>
+    <h2>Cómo Trabajamos</h2>
+    <div class="process">
+        <div class="card">
+            <h3>1️⃣ Análisis</h3>
+            <p>Estudiamos tu negocio y competencia.</p>
+        </div>
+        <div class="card">
+            <h3>2️⃣ Diseño Estratégico</h3>
+            <p>Diseñamos tu página enfocada en generar ventas.</p>
+        </div>
+        <div class="card">
+            <h3>3️⃣ Lanzamiento</h3>
+            <p>Publicamos tu web lista para atraer clientes.</p>
+        </div>
+    </div>
 </section>
 
-<section class="section">
-    <h2>Contáctanos</h2>
-    <p>Haz crecer tu negocio hoy mismo.</p>
+<section>
+    <h2>¿Por qué elegirnos?</h2>
+    <p>No solo diseñamos páginas web. Creamos herramientas digitales que ayudan a tu negocio a crecer.</p>
+    <br><br>
     <a class="btn" href="https://wa.me/5212220000000" target="_blank">
-        Hablar por WhatsApp
+        Hacer crecer mi negocio
     </a>
 </section>
 
 <footer>
-    <p>© 2026 GrowMountain | Marketing Digital y Desarrollo Web</p>
+    <p>© 2026 GrowMountain | Desarrollo Web Estratégico</p>
 </footer>
+
+<a class="whatsapp" href="https://wa.me/5212220000000" target="_blank">📲</a>
 
 </body>
 </html>
