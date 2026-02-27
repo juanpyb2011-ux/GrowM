@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GrowMountain | Páginas Web para Negocios Locales</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0f0f0f;
+    color:white;
+}
+
+header{
+    padding:80px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#0f0f0f,#1c1c1c);
+}
+
+header h1{
+    font-size:3rem;
+    margin:0;
+}
+
+header p{
+    font-size:1.2rem;
+    margin:15px 0;
+    color:#ccc;
+}
+
+.btn{
+    background:#00c853;
+    color:white;
+    padding:15px 25px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.examples{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    margin-top:40px;
+}
+
+.card{
+    background:#1e1e1e;
+    padding:25px;
+    width:280px;
+    border-radius:12px;
+}
+
+.card h3{
+    margin-top:0;
+}
+
+.card p{
+    color:#aaa;
+}
+
+footer{
+    background:#000;
+    padding:30px;
+    text-align:center;
+    color:#777;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>GrowMountain</h1>
+    <p>Creamos páginas web que ayudan a negocios locales a conseguir más clientes.</p>
+    <a class="btn" href="https://wa.me/5212220000000" target="_blank">
+        Solicitar Información
+    </a>
+</header>
+
+<section class="section">
+    <h2>¿Qué hacemos?</h2>
+    <p>Diseñamos páginas web profesionales optimizadas para Google, con integración directa a WhatsApp y enfoque en generar más ventas y citas.</p>
+</section>
+
+<section class="section">
+    <h2>Ejemplos de Conceptos Web</h2>
+    <p>Estos son ejemplos de páginas diseñadas como referencia para negocios locales.</p>
+
+    <div class="examples">
+
+        <div class="card">
+            <h3>🍔 Restaurante</h3>
+            <p>Página con menú digital, galería y botón de pedidos por WhatsApp.</p>
+        </div>
+
+        <div class="card">
+            <h3>✂️ Barbería</h3>
+            <p>Galería de trabajos, servicios destacados y reserva de citas.</p>
+        </div>
+
+        <div class="card">
+            <h3>💆‍♀️ Estética</h3>
+            <p>Catálogo de servicios, promociones y contacto directo.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h2>¿Por qué una página web?</h2>
+    <p>La mayoría de los clientes buscan negocios en Google antes de tomar una decisión. Tener una página profesional aumenta la confianza y mejora las ventas.</p>
+</section>
+
+<section class="section">
+    <h2>Contáctanos</h2>
+    <p>Haz crecer tu negocio hoy mismo.</p>
+    <a class="btn" href="https://wa.me/5212220000000" target="_blank">
+        Hablar por WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 GrowMountain | Marketing Digital y Desarrollo Web</p>
+</footer>
+
+</body>
+</html>
